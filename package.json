@@ -6,7 +6,7 @@
   "scripts": {
     "test": "mocha -r esm",
     "start": "source ~/.nvm/nvm.sh && nvm use && NODE_ENV=development webpack -d --progress --watch",
-    "build": "source ~/.nvm/nvm.sh && nvm use && NODE_ENV=production webpack -p --progress"
+    "build": "NODE_ENV=production webpack -p --progress"
   },
   "repository": {
     "type": "git",
