@@ -4,6 +4,10 @@ html( lang=content.lang )
 	include pug/_header.pug
 	body
 		main
-			h1 Hello sir
-			h2 How are you
+			div#hero
+				include ./assets/hero.svg
+				//- img( src='/assets/hero.svg' )
+				div#tagline
+					h1 Slowcial Media
+					h2 Platforms that foster <b>unhurried</b> and <b>meaningful</b> connection between humans
 		include pug/_footer.pug
