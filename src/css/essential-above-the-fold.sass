@@ -1,4 +1,5 @@
 $background-color: #efefef
+$accent-color: #a5d6a7
 
 body 
 	// Override browser default padding and margin
@@ -81,7 +82,7 @@ main
 				opacity: .8
 				font-size: 2rem
 				b
-					color: #a5d6a7
+					color: $accent-color
 	// ///////////////////////////////
 	// Some example apps
 	// ///////////////////////////////
@@ -142,6 +143,13 @@ main
 		h2
 			font-size: 2rem
 			opacity: .8
+
+		p
+			font-size: 1.5rem
+			text-align: center
+			opacity: .9
+			b
+				border-bottom: 2px solid $accent-color
 
 
 #footer 
