@@ -6,45 +6,16 @@ html( lang=content.lang )
 		main
 			div#hero
 				include ./assets/hero.svg
-				//- img( src='/assets/hero.svg' )
 				div#tagline
 					h1 Slowcial Media
 					h2 Platforms that foster <b>unhurried</b> and <b>meaningful</b> connection between humans
 			div#manifesto
 				h2 Manifesto
 				p People deserve software that helps them <b>express the best parts</b> of their nature.
-				p Creators have a <b>responsibility to help</b> their users to be their best.
+				p Creators of platforms that create interactions between people have a <b>responsibility to help</b> their users to be their best.
+				p <b>Removing urgency</b> and thoughtless interactions is an important part of bringing out the best in people.
 				
-			div#apps
-				h2 Featured:
-				div.row
-
-					//- Established companies and communities
-					a( target="_blank" href='https://www.quora.com/' )
-						img( src="/assets/apps/quora.svg" )
-						span A place to share knowledge and better understand the world.
-					a( target="_blank" href='https://www.reddit.com/r/changemyview/' )
-						img( src="/assets/apps/changemyview.jpg" )
-						span A place to post an opinion you accept may be flawed, in an effort to understand other perspectives on the issue.
-
-					//- Young companies
-					a( target="_blank" href='https://www.getrevue.co/' )
-						img( src="/assets/apps/revue.svg" )
-						span Revue is a commercial newsletter platform that moonlights as a personal-newsletter community favorite.
-					a( target="_blank" href='https://www.kialo.com/' )
-						img( src="/assets/apps/kialo.png" )
-						span Kialo cuts through the noise typically associated with social and online media, making it easy to engage in focused discussion.
-
-					//- Startups
-					a( target="_blank" href='https://getdex.com/' )
-						img( src="/assets/apps/getdex.svg" )
-						span Dex is a personal CRM that gives you relationship superpowers.
-					a( target="_blank" href='https://www.reflection.app/' )
-						img( src="/assets/apps/holstee.jpg" )
-						span Start a meaningful reflection practice with an online journal that guides your personal growth each month.
-					a( target="_blank" href='https://www.ourfabriq.com/' )
-						img( src="/assets/apps/fabriq.png" )
-						span Intentionally invest in your people. Download Fabriq,the tracking app your real social life needs.
+			include pug/_apps.pug
 					
 			
 
