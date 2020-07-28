@@ -4,8 +4,8 @@ const { normalize } = require( 'path' )
 module.exports = {
 	// Identity variables used in pug templates
 	identity: {
-		title: "Website",
-		desc: "Description of website",
+		title: "Slowcial media",
+		desc: "Platforms that foster unhurried and meaningful connection between humans",
 		"logo": "logo.jpg"
 	},
 	// System vars managing some pug elements as well as file paths
@@ -25,7 +25,7 @@ module.exports = {
 		twitter: "@actuallymentor",
 		// facebook profile id, used for retargeting ad permissions
 		facebook: "1299359953416544",
-		url: "https://www.skillcollector.com/"
+		url: "https://slowcialmedia.com/"
 	},
 	// Tracking codes
 	track: {
